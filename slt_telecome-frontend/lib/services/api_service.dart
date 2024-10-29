@@ -6,7 +6,7 @@ import 'dart:convert';
 class ApiService {
   final Dio _dio = Dio();
   final logger = Logger();
-  final String baseUrl = 'http://192.168.8.146/slt_telecom/index.php';
+  final String baseUrl = 'http://your_network_ip_address/slt_telecom/index.php';
 
 
 Future<List<Employee>> getAllEmployees() async {
