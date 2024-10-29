@@ -45,10 +45,24 @@ Replace `http://your_network_ip_address/slt_telecom/index.php` with the actual U
    ```bash
    flutter pub get
 
-5. **Update the backend URL in your Flutter app to match your server by modifying the `api_service.dart` file located in the `lib/services` folder:**
+2. **Update the backend URL in your Flutter app to match your server by modifying the `api_service.dart` file located in the `lib/services` folder:**
 
    ```dart
    // lib/services/api_service.dart
    final String baseUrl = "YOUR_BACKEND_URL";
+
+3. **Run the app on an emulator or device**
+   ```bash
+   flutter run
+
+## Usage
+
+1. **Open the app** on your device.
+2. **Add a New Employee**: Use the **Add Employee** form to enter new employee details.
+3. **Manage Employees**: View, edit, or delete employees directly from the employee list.
+
+Enjoy using the app for seamless employee management!
+
+   
 
 
