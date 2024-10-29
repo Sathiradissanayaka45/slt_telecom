@@ -2,7 +2,7 @@
 
 $dsn = "mysql:host=localhost;dbname=slttelecom";
 $dbusername = "root";
-$dbpassword = "Dilshara224#";
+$dbpassword = "your_password";
 
 try {
     $pdo = new PDO($dsn, $dbusername, $dbpassword);
