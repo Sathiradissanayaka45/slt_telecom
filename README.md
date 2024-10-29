@@ -30,4 +30,11 @@ Replace `http://your_network_ip_address/slt_telecom/index.php` with the actual U
 ## Installation
 
 ### Backend (PHP + MySQL)
+1. **Clone this repository to your server:**
+   ```bash
+   git clone https://github.com/yourusername/employee-management-backend.git
+1. **Create database in your MySQL database.**  
+
+2. **Configure database credentials** in `dbh.inc.php`.
+
 
