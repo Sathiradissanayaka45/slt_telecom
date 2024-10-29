@@ -39,4 +39,16 @@ Replace `http://your_network_ip_address/slt_telecom/index.php` with the actual U
 
 2. **Configure database credentials** in `dbh.inc.php`.
 
+## Frontend (Flutter)
+
+1. **Navigate into the frontend folder and install dependencies.**
+   ```bash
+   flutter pub get
+
+5. **Update the backend URL in your Flutter app to match your server by modifying the `api_service.dart` file located in the `lib/services` folder:**
+
+   ```dart
+   // lib/services/api_service.dart
+   final String baseUrl = "YOUR_BACKEND_URL";
+
 
